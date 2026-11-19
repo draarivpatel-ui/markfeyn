@@ -610,13 +610,6 @@ function reflectAcrossAxis(point, midpoint, axis) {
   };
 }
 
-function signedNormalDistance(point, from, to, axis) {
-  const midpoint = midpointOf(from, to);
-  const normal = { x: -axis.y, y: axis.x };
-
-  return (point.x - midpoint.x) * normal.x + (point.y - midpoint.y) * normal.y;
-}
-
 function average(values) {
   if (!values.length) {
     return 0;
