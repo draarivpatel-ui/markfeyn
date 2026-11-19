@@ -6,7 +6,6 @@ import {
   geometrySample,
   geometryToPath,
   gluonPathForEdge,
-  lineVector,
   normalizeVector,
   pointsToPath,
   squarePathForEdge,

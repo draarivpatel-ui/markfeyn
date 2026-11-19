@@ -1,7 +1,6 @@
 import {
   clamp,
   collectNodes,
-  crossCoordinateAt,
   diagramAxes,
   initialFixedPositions,
   labelSideForKind,
@@ -11,7 +10,6 @@ import {
   placeNodesOnRing,
   safeDelta,
   slotCoordinateAt,
-  terminalNeighborsByInternal,
 } from "./coordinates.js";
 import {
   applyLayoutNormalizations,

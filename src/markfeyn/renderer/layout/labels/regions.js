@@ -1,7 +1,6 @@
 import { compareStable } from "../model.js";
 import {
   averagePoint,
-  clamp,
   expandBounds,
   lineVector,
   pointsBounds,
